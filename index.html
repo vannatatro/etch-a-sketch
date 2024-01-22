@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Title -->
+    <h1>Etch-A-Sketch</h1>
+
+    <!-- Create main div -->
+    <div id="container"></div>
+
+
+    <script>
+    // Make grid of divs
+    let divContainer = document.querySelector("#container")
+    let amount = 16;
+    for (let i = 1; i < amount+1; i++) {
+        const newRow = document.createElement("div");
+        newRow.id = "newRowID";
+        divContainer.append(newRow);
+        console.log("row created");
+        for (let i = 1; i < amount+1; i++) {
+            let divRow = document.querySelector("#newRowID");
+            const newColumn = document.createElement("div");
+            newRow.append(newColumn);
+            console.log("column created"); }
+    }
+
+    // Create hover effect
+
+
+
+    </script>
+</body>
+</html>
