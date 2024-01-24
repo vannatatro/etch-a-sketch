@@ -20,16 +20,17 @@ div {
 
 
 #container {
-    border-color: red;
-    border-style: solid;
-    background-color: azure;
+    /* border-color: red;
+    border-style: solid; */
     height: 960px;
     width: 960px;
     display: flex;
+    margin: auto;
     
 }
 
-#newRowID {
+.gridRow {
     display: flex;
     flex-direction: column;
 }
+
