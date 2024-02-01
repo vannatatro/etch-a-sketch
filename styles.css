@@ -17,10 +17,10 @@ div {
 #container {
     border-color:  rgb(255, 181, 255);
     border-style: solid;
-    height: 800px;
-    width: 800px;
+    height: 700px;
+    width: 700px;
     display: flex;
-    margin: 25px;
+    margin: 10px;
     
     
 }
@@ -38,6 +38,7 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 25px;
 }
 
 #buttons {
@@ -65,7 +66,7 @@ button:hover {
 
 #sidePanel {
     background-color: rgb(255, 181, 255);
-    height: 800px;
-    width: 800px;
-    margin: 25px;
+    height: 700px;
+    width: 700px;
+    margin: 10px;
 }
