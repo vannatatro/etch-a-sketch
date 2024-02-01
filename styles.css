@@ -17,8 +17,8 @@ div {
 #container {
     border-color:  rgb(255, 181, 255);
     border-style: solid;
-    height: 975px;
-    width: 975px;
+    height: 800px;
+    width: 800px;
     display: flex;
     margin: 25px;
     
@@ -65,8 +65,7 @@ button:hover {
 
 #sidePanel {
     background-color: rgb(255, 181, 255);
-    height: 975px;
-    width: 975px;
+    height: 800px;
+    width: 800px;
     margin: 25px;
-
 }
